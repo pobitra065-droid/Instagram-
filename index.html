@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <span>+</span>
+  <span class="username" ondblclick="edit(this)">max______2 ▼</span>
+  <span>☰</span>
+</div>
+
+<!-- PROFILE -->
+<div class="top">
+  <img src="https://via.placeholder.com/90" class="dp">
+
+  <div class="stats">
+    <div ondblclick="edit(this)"><b>11</b><br>posts</div>
+    <div ondblclick="edit(this)"><b>27</b><br>followers</div>
+    <div ondblclick="edit(this)"><b>2</b><br>following</div>
+  </div>
+</div>
+
+<!-- BIO -->
+<div class="bio">
+  <div ondblclick="edit(this)">Unpopular opinion...</div>
+</div>
+
+<!-- DASHBOARD -->
+<div class="dashboard">
+  <div ondblclick="edit(this)">↗ 2.6T views in the last 30 days.</div>
+</div>
+
+<!-- BUTTONS -->
+<div class="buttons">
+  <button onclick="goInsight()">Insights</button>
+  <button onclick="addPost()">Add Post</button>
+</div>
+
+<!-- ICON BAR -->
+<div class="icons">
+  <span class="active">🏠</span>
+  <span>🔍</span>
+  <span onclick="addPost()">➕</span>
+  <span>🎬</span>
+  <span>👤</span>
+</div>
+
+<!-- GRID -->
+<div class="grid" id="grid"></div>
+
+<!-- BOTTOM NAV -->
+<div class="bottom-nav">
+  <span class="active">🏠</span>
+  <span>🔍</span>
+  <span onclick="addPost()">➕</span>
+  <span>🎬</span>
+  <span>👤</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

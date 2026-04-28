@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insights</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+  <span onclick="goBack()">←</span>
+  <span>Insights</span>
+  <span></span>
+</div>
+
+<div class="card">
+  <div onclick="editNumber()">Views: <span id="views">6000</span></div>
+</div>
+
+<div class="card">
+  <canvas id="lineChart"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
